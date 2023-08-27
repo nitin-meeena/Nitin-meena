@@ -4,67 +4,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
-    <title>Nitin Meena</title>
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="head">
-            <section>
-                Web Master
-            </section>
-            <nav>
-                <ul>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> About </a></li>
-                    <li><a href="#"> Service </a></li>
-                    <li><a href="#"> Blog </a></li>
-                    <li><a href="#"> Contact </a></li>
-                </ul>
 
-            </nav>
+    <header class="header">
+
+        <a href="#" class="logo">Nitin</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="page-scroll">About</a>
+            <a href="#education" class="page-scroll">Education</a>
+            <a href="#skills" class="page-scroll">Skills</a>
+            <a href="#service" class="page-scroll">Services</a>
+            <a href="#contact" class="page-scroll">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Nitin Meena</span></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae ipsam dolorem obcaecati eligendi
+                aspernatur aperiam temporibus ab, eos in animi, modi culpa aliquam soluta quidem, adipisci tempora
+                placeat laboriosam.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire me</a>
+                <a href="#" class="btn">Let's Talks</a>
+            </div>
         </div>
-        <main>
-            <div class="wlc">
-                <h3>Welcome</h3>
+
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/nitin-meena-25780b26a/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/nitin-meeena"><i class="bx bxl-github"></i></a>
+            <a href="https://twitter.com/nnitinmn"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.facebook.com/nitin.nm.75"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/nitin_meena_official/"><i class="bx bxl-instagram"></i></a>
+        </div>
+
+        <div class="home-imgHover"></div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="krishna2.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Frontend Developer!</h3>
+            <p>Front-end web development is the development of the graphical user interface of a website, through the
+                use of HTML, CSS, and JavaScript, so that users can view and interact with that website</p>
+
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
             </div>
-            <div class="main">
-                <div class="box">
-                    <div class="content">
-                        <p class="Hi">Hi I'm Nitin</p>
-                        <p class="stack">Mern Stack Developer </p>
-                        <!-- <button class="btn"> <a href="#">Services</a></button>
-                <button class="btn"> <a href="#">My Resume</a></button> -->
+        </div>
+    </section>
+
+    <!-- Education section -->
+
+    <section class="education" id="education">
+
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022-2024</div>
+                            <h3>Master Degree - MCA (Master in Computer Applications)</h3>
+                            <p>I have complet My Master degree in 2024 from University Institute of Technology Rajiv
+                                Gandhi Proudyogiki Vishwavidyalay.</p>
+                        </div>
                     </div>
-                    <div class="img">
-                        <img src="image/user.png" alt="">
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
+                            <h3> Bachelor Degree - BCA (Bachelor of Computer Applications)</h3>
+                            <p>I have completed My Bachelor degree in 2022 from Barkatullah Vishwavidyalaya, Bhopal </p>
+                        </div>
                     </div>
-                </div>
-                <div class="paragraph">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi officia culpa est voluptatum id
-                        nulla
-                        inventore doloribus, repellendus minus illum ullam beatae tempora delectus suscipit quas,
-                        magnam,
-                        porro, nulla quo nisi sequi, harum odit laborum commodi repudiandae.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint odit asperiores pariatur magnam. Officiis expedita dolores vero dolorem doloremque? Animi dignissimos porro amet? Quas amet molestiae recusandae culpa, incidunt aut labore eaque optio dolore sequi eos molestias exercitationem quia facere dolores praesentium aliquam vitae harum, id eum unde dicta fugit, placeat itaque. Molestias placeat voluptate consequuntur corrupti, accusamus dolorum deleniti magni, quos obcaecati inventore architecto voluptas blanditiis impedit dicta aperiam sequi assumenda consequatur quidem eaque ad? Nihil, cumque animi beatae perspiciatis quod laborum neque consequatur sint porro. Doloribus nam soluta illo facere ullam, sit fugit quos commodi architecto et saepe animi inventore est ratione perferendis porro sapiente dolore rerum magni molestias? Non iusto maiores illum nesciunt. Exercitationem molestiae, optio laborum, dolorem adipisci beatae ducimus dolorum asperiores nostrum explicabo voluptatum accusamus nisi, architecto error deleniti ea sequi illum iste harum veritatis ullam qui officia tempora animi. Nemo, unde repellendus expedita architecto cum dolorum incidunt nesciunt obcaecati nam maxime, quod consequuntur. Aperiam quibusdam tenetur commodi enim nisi, nesciunt molestias veniam cum earum. Non minima dignissimos repellat incidunt. Ullam neque, sunt eveniet, molestiae odit necessitatibus accusantium inventore aspernatur ipsa ex reiciendis adipisci quibusdam ipsam sequi voluptatum rem consequatur totam? Aliquid atque quod, illo unde architecto sapiente autem reiciendis eveniet ut velit reprehenderit quo voluptatibus ipsam! In sit reprehenderit reiciendis enim ipsum autem unde minima, dolorum illum recusandae? Consequuntur porro a architecto voluptatum incidunt earum optio nam quaerat assumenda eos reprehenderit possimus tempora ex sequi, nulla maiores ad? Vero error recusandae tempore placeat. Architecto vel fugit in ratione eum omnis eius non quam illum accusamus fuga voluptates dolore ea voluptatibus iure quo, ad corporis optio porro voluptatem veritatis dolorem. Est id voluptates possimus fugit! Voluptas amet consequatur nesciunt officiis mollitia numquam hic at delectus deserunt, quia rem autem nam, reprehenderit quidem facere. Beatae, optio.</p>
+
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
+                            <h3>Bechelor Degree - University</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati, modi iste
+                                alias fugiat expedita?</p>
+                        </div>
+                    </div> -->
+
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="s-media">
-                <a href="https://www.facebook.com/nitin.nm.75"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/nnitinmn"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/nitin_meena_official/"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/nitin-meeena"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nitin-meena-25780b26a/"><i class="fab fa-linkedin"></i></a>
+
+            <div class="education-column">
+                <h3 class="title">Exeperience</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022-2024</div>
+                            <h3>Web Development - Company</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati, modi iste
+                                alias fugiat expedita?</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
+                            <h3>Web Development - Company</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati, modi iste
+                                alias fugiat expedita?</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019-2022</div>
+                            <h3>Web Development - Company</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati, modi iste
+                                alias fugiat expedita?</p>
+                        </div>
+                    </div> -->
+                </div>
             </div>
-        </footer>
-    </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section design -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-column">
+            
+        </div>
+
+
+    </section>
+
+
+    <!-- Services section design -->
+
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Service</span></h2>
+
+        <div class="service-content">
+            <h3>Frontend Developer!</h3>
+            <p>Frontend as a service allows you to integrate with any tool you like and even switch out tools within
+                your tech stack. If any existing software isn't a fit for your business then you can easily add others
+                thanks to the API-first nature of frontend as a service solution.</p>
+
+
+    </section>
+
+    <!-- Contact Section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">My <span>Contact</span></h2>
+
+
+
+    </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
