@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Prociono&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "sans-serif";
+    color: white;
+}
+
+body {
+
+    background: url(https://images.unsplash.com/photo-1691253121599-073f111aa375?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* <-- itn is a head content --> */
+.head {
+    display: flex;
+    background: #000;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+section {
+    width: 20%;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 2em;
+}
+nav{
+    width:80%;
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #9b80ed;
+}
+
+
+
+/* <-- itn is a Main content --> */
+main {
+    top: 40%;
+}
+
+.wlc {
+    width: 100%;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.wlc h3 {
+    font-size: 3.5em;
+    letter-spacing: 10px;
+}
+.main {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.content {
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    padding-top: 50px;
+    background: url(/practice/image/bg.png);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.Hi {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.stack {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img img {
+    width: 400px;
+    /* height: 200px; */
+}
+
+.paragraph p{
+    margin: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.btn a {
+    background-color: rgb(25, 240, 140);
+    color: rgb(12, 11, 11);
+    transition: all ease 0.5s;
+}
+
+.btn a:hover {
+    background: #f33030;
+    box-shadow: 5px 5px 5px;
+}
+
+/* it is a footer */
+footer {
+    /* bottom: 20%; */
+}
+
+.s-media {
+    /* position: absolute; */
+    margin-top: 5px;
+    justify-content: center;
+    /* top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    align-items: center;
+    text-align:center;
+}
+
+.s-media a {
+    font-size: 2em;
+    color:navy;
+    padding: 10px;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+.s-media a:hover {
+    border-bottom: 2px solid #9b80ed;
+}
